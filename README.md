@@ -12,9 +12,8 @@ An improvement patch for the Japanese Sega Genesis / Mega Drive version of *Gold
   - Z: character-specific unique move
 - Separate ABC and XYZ layouts in the Options menu, with all six assignments available.
 - A `3PAD COMBOS` option for the original button combinations. It defaults to OFF and can be enabled for three- or six-button controllers.
-- A centered enemy panel showing a native portrait, name, variant, and remaining health.
+- A centered enemy panel showing a portrait, name, variant, and remaining health.
 - Enemy names based on the original manual where available, plus the patch-authored names Rancor and Havoc.
-- Player HUD positions that accommodate maximum health; Versus mode keeps the original positions.
 - A simpler level-select shortcut: press A+B+C together on controller 1 at character selection.
 
 ![Options](screenshots/Options_Preview.png)
@@ -46,7 +45,7 @@ To use level select, press A+B+C together on controller 1 at character selection
 
 ## Validation
 
-The patch has been tested in Genesis Plus GX Wide with automated checks for gameplay controls, all Options layouts, on-screen labels, enemy HUD behavior, maximum player health, Versus HUD positions, IPS reconstruction, and the Genesis checksum. Physical hardware and a complete campaign playthrough have not been tested.
+The controls, Options menu, enemy status panel, life bars, patch file, and game checksum have been tested extensively in an emulator. Physical hardware and a complete campaign playthrough have not been tested.
 
 ## Screenshots
 
