@@ -50,8 +50,8 @@ The patch has been tested in Genesis Plus GX Wide with automated checks for game
 
 ## Screenshots
 
-![Two-player HUD](screenshots/Enemy_HUD_Two_Player_Preview.png)
+![Rancor enemy HUD](screenshots/Enemy_HUD_Preview.png)
 
-![Maximum-health HUD](screenshots/Player_HUD_Max_Health_Preview.png)
+![Fierce Eve enemy HUD](screenshots/Eve_HUD_Preview.png)
 
-![Versus HUD](screenshots/Versus_HUD_Preview.png)
+![Options menu](screenshots/Options_Preview.png)
