@@ -32,6 +32,7 @@ Reopen the patched game and start fresh. Set your emulator's controller to six-b
 - **Character selection:** Up/Down selects an enemy or boss; Left/Right returns to the original heroes. Press Start to confirm.
 - **Original heroes:** X blocks, Y uses the round attack, and Z uses the unique move.
 - **Enemies and bosses:** X blocks or evades where supported; Y and Z use character-specific special moves.
+- **Enemy strength:** press C at character selection to choose Normal or Strong. Strong uses the highest native close-combat damage values; Eve has one damage set. Magic and projectiles retain their existing damage.
 - **Magic:** A in the default button layout; requires magic bottles.
 - **Options:** change ABC/XYZ layouts or enable the original three-button combinations.
 - **Level select:** press A+B+C together at character selection.
