@@ -38,6 +38,18 @@ Reopen the patched game and start fresh. Set your emulator's controller to six-b
 - **Level select:** press A+B+C together at character selection.
 - **Clear-screen cheat:** hold Mode and press Start during gameplay or camp. Clears visible enemies and makes dwarfs release their remaining items. Not available in Versus.
 
+## Playable enemies and bosses in action
+
+Choose an enemy or boss on the character-select screen.
+
+![Playable boss selection showing Damned Hellstrike II and Normal strength](screenshots/Playable_Boss_Selection.png)
+
+Play as a boss with the original player health, magic, and lives display.
+
+![Playable boss exploring a stage with the player HUD](screenshots/Playable_Boss_Gameplay.png)
+
+![Playable boss fighting enemies, with the target's name and health displayed](screenshots/Playable_Boss_Combat.png)
+
 ## Original controls-only edition
 
 The earlier [six-button controls and enemy HUD edition](Golden_Axe_III_6Button_EnemyHUD_v1.0.zip) is also available without playable enemies or bosses.
