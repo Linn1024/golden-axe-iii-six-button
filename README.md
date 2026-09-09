@@ -1,56 +1,46 @@
-# Golden Axe III — Six-Button Controls & Enemy HUD
+# Golden Axe III - Playable Enemies & Bosses
 
-An improvement patch for the Japanese Sega Genesis / Mega Drive version of *Golden Axe III*.
+Play as enemies and bosses in *Golden Axe III*, with configurable six-button controls and an enemy health display.
 
-![Enemy HUD](screenshots/Enemy_HUD_Preview.png)
+## Playable bosses and remaining issues
+
+Playable bosses have been fixed as far as possible. **The game has been completed using one of the bosses**, but there is no guarantee that every boss or enemy will work perfectly throughout the game.
+
+Boss palettes can still look wrong in places, and some other characters may show unusual colors when a boss is the player. These are visual issues and are not critical to gameplay.
 
 ## Features
 
-- Configurable six-button controls for both players:
-  - X: block
-  - Y: round attack
-  - Z: character-specific unique move
-- Separate ABC and XYZ layouts in the Options menu, with all six assignments available.
-- A `3PAD COMBOS` option for the original button combinations. It defaults to OFF and can be enabled for three- or six-button controllers.
-- A centered enemy panel showing a portrait, name, variant, and remaining health.
-- Enemy names based on the original manual where available, plus the patch-authored names Rancor and Havoc.
-- A simpler level-select shortcut: press A+B+C together on controller 1 at character selection.
+- Play as enemies and bosses in single-player.
+- Use their attacks and special moves, plus magic borrowed from the original heroes.
+- Adjust ABC and XYZ button layouts in Options.
+- See the enemy's portrait, name, and remaining health.
+- Use the original player health, magic, and lives display.
+- Versus keeps its original character selection.
 
-![Options](screenshots/Options_Preview.png)
+## Download and installation
 
-## Installation
+[Download the playable-enemies patch](Golden_Axe_III_PlayableEnemies.zip).
 
-Download `Golden_Axe_III_6Button_EnemyHUD_v1.0.zip` and apply the included IPS patch to your own copy of the exact source ROM listed below. Configure the emulator for a six-button Genesis controller and start the game from a fresh boot.
+Apply `Golden_Axe_III_PlayableEnemies.ips` to your own copy of `Golden_Axe_III_(J)_[h1].bin`. Apply it to the original game, not an already patched version. This patch includes the six-button controls and enemy HUD.
 
-This repository contains no game ROM.
+The required original file is 1,048,576 bytes, with CRC32 `65F4D556` and SHA-1 `a602f49de6f006b9cd210049496098dc01a1ca10`. Other versions have not been tested. No game ROM is included.
 
-## Required source ROM
-
-- Filename: `Golden_Axe_III_(J)_[h1].bin`
-- Size: 1,048,576 bytes
-- CRC32: `65F4D556`
-- MD5: `8f3f887d86cca2d586e5e6515121b0df`
-- SHA-1: `a602f49de6f006b9cd210049496098dc01a1ca10`
-- SHA-256: `04d753b8e24ba7644091eb662f93dfaa4d5124c6c69b31fc5c1682ad68c665f6`
-
-The tested source is an `[h1]` dump rather than a verified clean retail dump. Other dumps and combinations with other hacks have not been tested.
+Reopen the patched game and start fresh. Set your emulator's controller to six-button to use X, Y, Z, and Mode.
 
 ## Controls
 
-The default XYZ layout is Block, Round Attack, and Unique Move. The Options menu can swap these assignments independently of ABC.
+- **Character selection:** Up/Down selects an enemy or boss; Left/Right returns to the original heroes. Press Start to confirm.
+- **Original heroes:** X blocks, Y uses the round attack, and Z uses the unique move.
+- **Enemies and bosses:** X blocks or evades where supported; Y and Z use character-specific special moves.
+- **Magic:** A in the default button layout; requires magic bottles.
+- **Options:** change ABC/XYZ layouts or enable the original three-button combinations.
+- **Level select:** press A+B+C together at character selection.
+- **Clear-screen cheat:** hold Mode and press Start during gameplay or camp. Clears visible enemies and makes dwarfs release their remaining items. Not available in Versus.
 
-The unique move triggers Kain's projectile, Proud's tornadoes, Chronos's lunging attack, or Sarah's sword throw. Normal combat restrictions still apply.
+## Original controls-only edition
 
-To use level select, press A+B+C together on controller 1 at character selection, choose the stage with Up/Down, and press Start.
+The earlier [six-button controls and enemy HUD edition](Golden_Axe_III_6Button_EnemyHUD_v1.0.zip) is also available without playable enemies or bosses.
 
-## Validation
+![Enemy health display](screenshots/Enemy_HUD_Preview.png)
 
-The controls, Options menu, enemy status panel, life bars, patch file, and game checksum have been tested extensively in an emulator. Physical hardware and a complete campaign playthrough have not been tested.
-
-## Screenshots
-
-![Rancor enemy HUD](screenshots/Enemy_HUD_Preview.png)
-
-![Fierce Eve enemy HUD](screenshots/Eve_HUD_Preview.png)
-
-![Options menu](screenshots/Options_Preview.png)
+![Options](screenshots/Options_Preview.png)
