@@ -1,5 +1,7 @@
 # Golden Axe III - Playable Enemies & Bosses
 
+**Version 1.2**
+
 Play as enemies and bosses in *Golden Axe III*, with configurable six-button controls and an enemy health display.
 
 ## Playable bosses and remaining issues
@@ -13,6 +15,7 @@ Boss palettes can still look wrong in places, and some other characters may show
 - Play as enemies and bosses in single-player.
 - Use their attacks and special moves, plus magic borrowed from the original heroes.
 - Adjust ABC and XYZ button layouts in Options.
+- Turn friendly fire off for two-player cooperative play in Options.
 - See the enemy's portrait, name, and remaining health.
 - Use the original player health, magic, and lives display.
 - Versus keeps its original character selection.
@@ -35,6 +38,7 @@ Reopen the patched game and start fresh. Set your emulator's controller to six-b
 - **Enemy strength:** press C at character selection to choose Normal or Strong. Strong uses the highest native close-combat damage values; Eve has one damage set. Magic and projectiles retain their existing damage.
 - **Magic:** A in the default button layout; requires magic bottles.
 - **Options:** change ABC/XYZ layouts or enable the original three-button combinations.
+- **Friendly fire:** set FRIENDLY FIRE to OFF in Options to prevent partner hits and grabs in two-player cooperative play. ON keeps the original behavior; Versus is unaffected.
 - **Level select:** press A+B+C together at character selection.
 - **Clear-screen cheat:** hold Mode and press Start during gameplay or camp. Clears visible enemies and makes dwarfs release their remaining items. Not available in Versus.
 
