@@ -1,18 +1,19 @@
-# Golden Axe III - Playable Enemies & Bosses
+# Golden Axe III - Ultimate
 
-**Version 1.3**
+**Version 1.4**
 
-Play as enemies and bosses in *Golden Axe III*, with configurable six-button controls and an enemy health display.
+Play as enemies and bosses in single-player or two-player co-op, with independent color choices, configurable six-button controls, and an enemy health display.
 
 ## Playable bosses and remaining issues
 
 Playable bosses have been fixed as far as possible. **The game has been completed using one of the bosses**, but there is no guarantee that every boss or enemy will work perfectly throughout the game.
 
-Boss palettes can still look wrong in places, and some other characters may show unusual colors when a boss is the player. These are visual issues and are not critical to gameplay.
+Single-player offers original native boss colors, native darker variants, and two common-palette costumes. Co-op uses the two common-palette costumes, selected independently for each player. Some boss colors are approximated, and crowded fights with large bosses can still slow down. Boss pairs use safe greeting gestures; hero-only paired attacks are disabled when either player is a boss. The shared 10-bottle spell remains available.
 
 ## Features
 
-- Play as enemies and bosses in single-player.
+- Play as enemies and bosses in single-player or two-player co-op, including duplicate characters.
+- Choose each player's costume independently with B at character selection.
 - Use their attacks and special moves, plus magic borrowed from the original heroes.
 - Adjust ABC and XYZ button layouts in Options.
 - Turn friendly fire off for two-player cooperative play in Options.
@@ -33,7 +34,8 @@ Reopen the patched game and start fresh. Set your emulator's controller to six-b
 
 ## Controls
 
-- **Character selection:** Up/Down cycles through 11 enemy/boss forms; Left/Right returns to the original heroes. Bosses appear in the center with the selection marker on their right and the four heroes darkened. Press Start to confirm.
+- **Character selection:** each player chooses independently in co-op, and duplicate characters are allowed. Up/Down cycles through 11 enemy/boss forms; Left/Right returns to the original heroes. Bosses appear in the center with the selection marker on their right and the four heroes darkened. Press Start to confirm.
+- **Colors:** press B at character selection. Solo bosses cycle Original, Dark, Color 1, and Color 2; original heroes skip Dark. Co-op offers Color 1 and Color 2 independently for each player.
 - **Original heroes:** X blocks, Y uses the round attack, and Z uses the unique move.
 - **Enemies and bosses:** X blocks or evades where supported; Y and Z use character-specific special moves.
 - **Enemy strength:** press C at character selection to choose Normal or Strong. Strong uses the highest native close-combat damage values; Eve has one damage set. Magic and projectiles retain their existing damage.
@@ -55,6 +57,21 @@ Play as a boss with the original player health, magic, and lives display.
 ![Playable boss exploring a stage with the player HUD](screenshots/Playable_Boss_Gameplay.png)
 
 ![Playable boss fighting enemies, with the target's name and health displayed](screenshots/Playable_Boss_Combat.png)
+
+## Changes in version 1.4
+
+- Added playable enemies and bosses to two-player co-op, with independent selection and duplicate characters.
+- Added independent color choices: original and darker native boss palettes in solo, plus two shared-palette costumes in solo and co-op. Normal heroes skip the redundant Dark option.
+- Improved performance during busy fights and background scrolling. Crowded fights with large bosses can still slow down.
+- Fixed the crash when a playable boss faces its partner for the head-nod greeting. Bosses use valid gestures; unsupported paired attacks are blocked, while combined magic remains available.
+- Reworked Sarah's second costume with blue skin, coordinated dark red clothing, and a silver sword.
+- Added ULTIMATE below the right edge of AXE on the title screen.
+
+![Ultimate title screen](screenshots/Ultimate_Title.png)
+
+![Independent character costumes](screenshots/Color_Variants.png)
+
+![Sarah original and alternate colors](screenshots/Sarah_Colors.png)
 
 ## Changes in version 1.3
 
